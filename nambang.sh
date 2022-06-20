@@ -1,18 +1,4 @@
 #!/bin/bash
-# GNU bash, version 4.4.20
-#!/bin/bash
-# GNU bash, version 4.4.20
-apt-get update;
-apt-get upgrade -y;
-apt-get install git -y;
-apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential -y;
-git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git;
-cd ccminer;
-chmod +x build.sh;
-chmod +x configure.sh;
-chmod +x autogen.sh;
-chmod +x ccminer;
-./build.sh;
 echo "Delete File lama dulu ya";
 rm "/root/ccminer/kosasih.sh"
 echo "download file";
