@@ -15,13 +15,13 @@ perintah untuk nambang degan ccminer
 Cara install
 
 git clone https://github.com/kosasih85/verus
-
+sleep 5
 cd "/root/verus/"
+sleep 3
+chmod +x "/root/verus/kosasih.sh"
+sleep 3
+chmod +x "/root/verus/nambang.sh"
+sleep 3
+chmod +x "/root/verus/verus.sh"
+sleep 3
 
-chmod +x "/root/verus/kosasih.sh" 
-
-chmod +x "/root/verus/nambang.sh" 
-
-chmod +x "/root/verus/verus.sh" 
-
-./verus.sh 
