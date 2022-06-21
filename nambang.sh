@@ -1,4 +1,5 @@
 #!/bin/bash
+sleep 1m
 echo "Delete File lama dulu ya";
 rm "/root/ccminer/kosasih.sh"
 echo "download file";
