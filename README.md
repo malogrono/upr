@@ -14,7 +14,7 @@ perintah untuk nambang degan ccminer
 
 Cara install
 
-git clone ARM https://github.com/kosasih85/verus
+git clone https://github.com/kosasih85/verus
 
 cd "/root/verus/"
 
