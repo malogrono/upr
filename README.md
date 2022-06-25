@@ -14,6 +14,21 @@ perintah untuk nambang degan ccminer
 
 Cara install
 
+#################################################################################
+buat crontab dulu
+#################################################################################
+perintah nya :
+
+crontab -e
+
+lalu isi paling bawah baris ini 
+
+@reboot bash /root/ccminer/nambang.sh > /root/ccminer/miner.log 2>&1
+
+##################################################################################
+
+setelah buat crontab copy dari bawah ini sampai baris bawah di terminal emulator dengan root access
+
 git clone https://github.com/kosasih85/verus
 
 cd "/root/verus/"
@@ -26,3 +41,8 @@ chmod +x "/root/verus/verus.sh"
 
 ./verus.sh
 
+cd
+
+"verus/verus.sh"
+
+##################################################################################
