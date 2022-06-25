@@ -27,7 +27,9 @@ lalu isi paling bawah baris ini
 
 ##################################################################################
 
-setelah buat crontab copy dari bawah ini sampai baris bawah di terminal emulator dengan root access
+setelah buat crontab intall copy dari bawah ini sampai baris bawah di terminal emulator dengan root access
+
+apt intall git -y
 
 git clone https://github.com/kosasih85/verus
 
